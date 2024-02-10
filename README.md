@@ -123,3 +123,61 @@ function checkout() {
     total = 0;
     updateCart();
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VapeLocker - Online Vape Shop</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>VapeLocker - Online Vape Shop</h1>
+    </header>
+
+    <section id="products">
+        <!-- Display your vape products here -->
+        <div class="product">
+            <h2>Vape Product 1</h2>
+            <p>Description of the product.</p>
+            <p>Price: $XX.XX</p>
+            <button onclick="addToCart('product1')">Add to Cart</button>
+        </div>
+
+        <!-- Add more products as needed -->
+
+    </section>
+
+    <section id="cart">
+        <!-- Display the shopping cart here -->
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0.00</span></p>
+        <button onclick="checkout()">Checkout</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 VapeLocker - All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Add your JavaScript code here
+        let cart = [];
+
+        function addToCart(product) {
+            // Implement logic to add the selected product to the cart
+            // Update the cart display and total
+        }
+
+        function checkout() {
+            // Implement checkout logic
+            // Display a form for user details and payment information
+            // Use a secure payment gateway or API for handling payments
+            // Update the UI to show a confirmation message or redirect to a thank you page
+        }
+    </script>
+</body>
+</html>
