@@ -1,4 +1,4 @@
-# vapelocker
+# VapeLocker
 Welcome to VapeLocker, your premier destination for an unparalleled vaping experience in India! At VapeLocker, we curate a diverse selection of top-notch vapes, ensuring that every puff is a journey into satisfaction. Our commitment to quality, innovation, and safety sets us apart, providing our customers with the confidence to indulge in the latest and finest vaping products. Explore our virtual aisles, where each vape is a testament to craftsmanship and cutting-edge technology. Elevate your vaping lifestyle with VapeLocker – where passion meets performance, and satisfaction is just a click away. Experience the difference and join the VapeLocker community, where excellence is not just a choice but a standard.
 <!DOCTYPE html>
 <html lang="en">
