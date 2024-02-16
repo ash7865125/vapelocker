@@ -123,30 +123,4 @@ function checkout() {
     total = 0;
     updateCart();
 }
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Secure Checkout</title>
-</head>
-<body>
-    <div id="checkout-form">
-        <label for="card-element">
-            Credit or debit card
-        </label>
-        <div id="card-element">
-            <!-- A Stripe Element will be inserted here. -->
-        </div>
 
-        <!-- Used to display form errors. -->
-        <div id="card-errors" role="alert"></div>
-
-        <button id="submit">Pay Now</button>
-    </div>
-
-    <script src="https://js.stripe.com/v3/"></script>
-    <script src="script.js"></script>
-</body>
-</html>
